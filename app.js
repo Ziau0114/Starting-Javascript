@@ -680,12 +680,78 @@ console.log("You can", age > 18 ? "drive" : "not drive");*/
 
 // myFunc2();
 //Fetch API
-let p = fetch("https://goweather.herokuapp.com/weather/karachi")
-p.then((response) => {
-    if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    return response .json();
-}).then((data) => {
-    console.log(data);
-}); 
+// let p = fetch("https://goweather.herokuapp.com/weather/karachi")
+// p.then((response) => {
+//     if (!response.ok) {
+//         throw new Error(`HTTP error! status: ${response.status}`);
+//     }
+//     return response .json();
+// }).then((data) => {
+//     console.log(data);
+// }); 
+
+
+//constructor function
+// function App(name, version, author, license) {
+//   this.name = name;
+//   this.version = version;
+//   this.author = author;
+//   this.license = license;
+// }
+// //add method using prototype
+// App.prototype.add = function() {
+//     alert("App added successfully");
+// };
+
+// var app = new App("zia", 2.3, "khurram", false);
+// console.log(app);
+
+// practise for in loops
+// var person = {
+//     name: "zia",
+//     age: 25,
+//     city: "karachi"
+// }
+// for (var key in person) {
+//     console.log(key + ": " + person[key]);
+// }
+// console.log(person.hasOwnProperty("password")); 
+
+// var btn =document.getElementById("btn");
+// btn.addEventListener("click", function(){
+//    console.log( window.location.href);
+// window.location.href = "http://www.facebook.com" // external website pr lyjata h
+// window.location.replace("http://www.instagram.com") // current path ko us path se replace krdeta h
+// console.log(window.location.hostname) //us website ka domain name return krta h
+// console.log(window.location.origin); //us website ka main inde.html return krta h
+// window.location.href = "login.html"  // internal website ky page pr lyjata h
+// })
+
+// var btn =document.getElementById("btn");
+// btn.addEventListener("click", function(){
+//    console.log( window.location.href);
+// window.location.href = "http://www.facebook.com" // external website pr lyjata h
+// window.location.replace("http://www.instagram.com") // current path ko us path se replace krdeta h
+// console.log(window.location.hostname) //us website ka domain name return krta h
+// console.log(window.location.origin); //us website ka main inde.html return krta h
+// window.location.href = "login.html"  // internal website ky page pr lyjata h
+// history.back(); // jis bhi website se user aaya ho wapas usi website pr lyjata h
+// })
+// Exercise No 01
+// Area of traingle
+// let base = prompt("Enter th Base:")
+// let height = prompt("Enter th Height:")
+// let area = base * height / 2
+// document.write("The area of the traingle is:" + area);
+// Exercise No 02
+//Swapping two numbers
+//Swapping with temporary variable
+// let a = prompt("Enter the value of a:")
+// let b = prompt("Enter the value of b:")
+// console.log(`Before swapping a = ${a} and b = ${b}`);
+// let temp;
+// temp = a 
+// a = b
+// b = temp
+// console.log(`After swapping a = ${a} and b = ${b}`);
+
