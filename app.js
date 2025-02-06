@@ -754,4 +754,54 @@ console.log("You can", age > 18 ? "drive" : "not drive");*/
 // a = b
 // b = temp
 // console.log(`After swapping a = ${a} and b = ${b}`);
+//Swapping without temporary variable
+// let a = parseInt(prompt("Enter the value of a:"))
+// let b = parseInt(prompt("Enter the value of b:"))
+// console.log(`Before swapping a = ${a} and b = ${b}`);
+// a = a + b
+// b = a - b
+// a = a - b
+// console.log(`After swapping a = ${a} and b = ${b}`);
 
+// 13. *Print Fibonacci Sequence*  
+//       Write a program to print the Fibonacci sequence up to a given number.
+//       The Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+// let n = 9
+// let a =  0
+// let b = 1
+// function fibonacci(n) {
+//     let n3;
+//     for (let i = 0; i < n; i++) {
+//         console.log(a);
+//         n3 = a + b
+//         a = b
+//         b = n3
+//     }
+// }
+// let result = fibonacci(n)
+// console.log(result);
+
+// 14. *Remove Duplicates from an Array*  
+//       Write a function that removes duplicate values from an array.
+//  let arr = [1, 2, 2, 3, 3, 4, 5]
+//  for (let i = 0; i < arr.length; i++) {
+//      for (let j = i + 1; j < arr.length; j++) {
+//          if (arr[i] === arr[j]) {
+//              arr.splice(j, 1)
+//          }
+//      }
+//  }
+//  console.log(arr)
+
+
+
+// 15. *Count Occurrences of a Character in a String*  
+//       Write a function to count how many times a specific character appears in a string.
+ let str = "Ziauddin"
+    let count = 0
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === "i") {
+            count++
+        }
+    }
+    console.log(count)
